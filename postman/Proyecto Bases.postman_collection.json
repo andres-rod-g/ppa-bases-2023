@@ -110,7 +110,16 @@
 					"name": "Get Logs",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{HOST}}/logs",
+							"host": [
+								"{{HOST}}"
+							],
+							"path": [
+								"logs"
+							]
+						}
 					},
 					"response": []
 				}
